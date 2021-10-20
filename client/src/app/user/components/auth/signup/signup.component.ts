@@ -24,7 +24,7 @@ export class SignupComponent implements OnInit {
   }, 
   (err) => {
     this.error = err.error;
-    console.log(this.error);
+    console.log(err);
     
   }
   );
